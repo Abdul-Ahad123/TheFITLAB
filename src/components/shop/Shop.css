@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.h3tag{
+    color: black;
+}
+
+section{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    background-color: white;
+}
+.cards{
+    width: 250px;
+    padding: 20px;
+}
+.cards:hover{
+    cursor: pointer;
+    /* border: 1px solid #FF1414;
+    box-shadow: 2px 2px 12px rgba(184, 0, 0, 0.445); */
+}
+
+.img_card img{
+    width: 150px;
+    height: 200px;
+}
+.details p:nth-child(2){
+    font-size: 0.8rem;  
+}
+
+.details p:nth-child(3){
+    font-weight: bold;  
+}
+
+.details button{
+    padding: 5px 10px;
+    border: none;
+    font-weight: bold;
+}

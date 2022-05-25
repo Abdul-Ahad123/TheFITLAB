@@ -1,0 +1,13 @@
+.htag{
+    text-align: center;
+
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 10px;
+  padding: 2px;
+}
